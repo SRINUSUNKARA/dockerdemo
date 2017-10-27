@@ -4,5 +4,4 @@ ENTRYPOINT /bin/bash
 EXPOSE 80
 ENV MYNAME=siva
 WORKDIR /tmp
-ARG user
-USER $user
+
